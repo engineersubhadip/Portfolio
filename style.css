@@ -21,6 +21,12 @@ body {
     background-color: var(--teal);
 }
 
+.section-turquoise {
+    width : 100%;
+    background-color: var(--turquoise);
+    
+}
+
 h1, h2, h3, h4, h5, h6 {
     margin : 0px;
 }
@@ -67,7 +73,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hire {
     background-color: var(--turquoise);
-    width : 100%;
+    width : 400px;
     text-align: center;
     margin : 0 auto;
     padding : 3rem 0;
