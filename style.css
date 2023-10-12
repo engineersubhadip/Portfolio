@@ -32,7 +32,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #intro {
-    padding-bottom: 5rem;
+    padding : 4rem 1rem 6rem 1rem;
+    max-width: 1200px;
+    margin : 0 auto;
+
 }
 
 #intro p{
@@ -92,12 +95,13 @@ nav ul{
     /* Parent Container */
     list-style-type: none;
     padding : 0;
-    margin : 0;
+    margin : 0; 
     display: flex;
     flex-flow: row wrap;
     justify-content: end;
     align-items : center;
     gap : 2rem;
+    margin-right : 2rem;
 }
 
 nav a {
@@ -114,6 +118,18 @@ nav a:hover{
 nav li:first-child{
     flex-grow: 1;
     font-size: 1.5rem;
+    margin-left : 1.73rem;
+}
+
+.button {
+    background-color: orangered;
+    padding : 0.5rem;
+    border-radius: 5px;
+}
+
+.button:hover {
+    color : white;
+    background: linear-gradient(148deg, rgba(247,106,82,1) 26%, rgba(222,120,66,1) 36%, rgba(240,86,71,1) 47%);
 }
 
 
