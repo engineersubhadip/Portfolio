@@ -44,7 +44,36 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 1rem;
 }
 
-.profile + h2{
+#intro h2{
     font-size : 2.3rem;
     font-weight : normal;
 }
+
+#experience ul{
+    margin : 0;
+    padding : 0;
+    font-size: 1.5rem;
+}
+
+
+#experience li{
+    list-style-type: none;
+    padding-bottom: 1rem;
+}
+
+#experience a{
+    color : white;
+}
+
+#hire {
+    background-color: var(--turquoise);
+    width : 100%;
+    text-align: center;
+    margin : 0 auto;
+    padding : 3rem 0;
+}
+
+#hire p:last-child {
+    margin-top: 3rem;
+}
+
